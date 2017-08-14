@@ -210,27 +210,7 @@ class Portero: public JugadorDeFutbol{
 };
 
 
-///////////////////////////////////////////////////////////////////
-////////////////////////////// Main ///////////////////////////////
-///////////////////////////////////////////////////////////////////
 
-void evaluar();
-void evaluar2();
-
-int main ()
-{
-    //Funcion evaluadora parte 1
-     cout<<"Evaluador parte 1"<<endl<<"================="<<endl;
-     evaluar();
-
-
-    //Evaluacion parte 2
-     //Descomentar para evaluar
-      cout<<"Evaluador parte 2"<<endl<<"================="<<endl;
-     evaluar2();
-
-     return 0;
-}
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -324,7 +304,7 @@ void evaluar2()
 && portero2.getAtajadas() == 200
    && portero3.getNombre() == "Lofo"
     && portero3.getAtajadas() == 300
-  )
+ )
  {
  nota+=1.5;
   cout<<"Correcto"<<endl;
